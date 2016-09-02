@@ -47,7 +47,7 @@ namespace ToDoListAPI
             : base()
         {
             this._toDoList = new ToDoList(this);
-            this._baseUri = new Uri("http://localhost:45914");
+            this._baseUri = new Uri("https://todolistdataapi-mc.azurewebsites.net:443");
         }
         
         /// <summary>
@@ -61,7 +61,7 @@ namespace ToDoListAPI
             : base(handlers)
         {
             this._toDoList = new ToDoList(this);
-            this._baseUri = new Uri("http://localhost:45914");
+            this._baseUri = new Uri("https://todolistdataapi-mc.azurewebsites.net:443");
         }
         
         /// <summary>
@@ -78,7 +78,7 @@ namespace ToDoListAPI
             : base(rootHandler, handlers)
         {
             this._toDoList = new ToDoList(this);
-            this._baseUri = new Uri("http://localhost:45914");
+            this._baseUri = new Uri("https://todolistdataapi-mc.azurewebsites.net:443");
         }
         
         /// <summary>
